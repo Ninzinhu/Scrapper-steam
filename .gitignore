@@ -1,6 +1,34 @@
-/config.py
-/debug_1091500.html
-/install.bat
-/install.sh
-/requirements.txt
-/steam_scraper_melhorado.py
+# Arquivos de debug
+debug_*.html
+
+# Arquivos de dados gerados
+*.json
+*.csv
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Arquivos de ambiente
+.env
+.venv
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
